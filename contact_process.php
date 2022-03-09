@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
   
 require 'email/autoload.php';
-require('tfpdf/tfpdf.php');
+
 
 if (isset($_POST['email'])) {
 	$user_email = $_POST['email'];

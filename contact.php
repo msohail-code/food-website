@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php 
-		$page_title  = "Home Page";
+		$page_title  = "Contact Us";
 		$page = "contact";
 		require 'includes/top.php';
 	 ?>
