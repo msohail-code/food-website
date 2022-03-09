@@ -49,11 +49,10 @@ if (isset($_POST['email'])) {
 	    $mail->Body    = $user_message;
 	   // $mail->AltBody = 'Body in plain text for non-HTML mail clients';
 	    echo "we are here";
+	    $mail->send();
 	    
-	    if($mail->send())
-	    {
 	    	echo "Thanks for contacting us, We will get back to you soon";
-	    }
+	    
 	  
 	    
 
