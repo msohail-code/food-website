@@ -32,12 +32,12 @@
 	          <li>
 	            <img src="img/clock.png" alt="">
 	            <h4>Opening Timing</h4>
-	            <h5>8:00 AM</h5>
+	            <h5>12:00 PM</h5>
 	          </li>
 	          <li>
 	            <img src="img/clock.png" alt="">
 	            <h4>Closing Time</h4>
-	            <h5>11:00 PM</h5>
+	            <h5>12:00 AM</h5>
 	          </li>
 	          <li>
 	            <img src="img/banner/support-icon.png" alt="">
