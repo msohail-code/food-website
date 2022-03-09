@@ -35,8 +35,11 @@ if (isset($_POST['email'])) {
 	    */
 	    $mail->CharSet = "UTF-8";
 
-	    $mail->From = $user_email;
-	    $mail->FromName = $user_name;
+	    // echo $mail->From = $user_email;
+	    // $mail->from = "grabsinfo@gmail.com";
+	    // $mail->FromName = $user_name;
+
+	    $mail->setFrom($user_email,$user_name ); 
 	    // $mail->addAddress("Clearbusiness.adrianvenoin@gmail.com");
 	    $mail->addAddress("tutstricks@gmail.com");
 
@@ -48,7 +51,7 @@ if (isset($_POST['email'])) {
 	    $mail->Subject = $user_subject;
 	    $mail->Body    = $user_message;
 	   // $mail->AltBody = 'Body in plain text for non-HTML mail clients';
-	    echo "we are here";
+	    // echo "we are here";
 	    $mail->send();
 	    
 	    	echo "Thanks for contacting us, We will get back to you soon";
