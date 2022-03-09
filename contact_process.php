@@ -37,7 +37,9 @@ if (isset($_POST['email'])) {
 
 	    $mail->From = $user_email;
 	    $mail->FromName = $user_name;
-	    $mail->addAddress("Clearbusiness.adrianvenoin@gmail.com");
+	    // $mail->addAddress("Clearbusiness.adrianvenoin@gmail.com");
+	    $mail->addAddress("tutstricks@gmail.com");
+
 	    
 	    
 
